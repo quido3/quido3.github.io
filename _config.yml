@@ -26,6 +26,8 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: email
+    url: mailto:majamaki.petri@gmail.com
   - title: github
     url: https://github.com/quido3
   - title: linkedin
