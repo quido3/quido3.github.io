@@ -4,10 +4,10 @@ Chunk container styles
 
 .chunk {
     background-repeat: no-repeat;
-    background-size: 100%;
-    display: table;
+    background-size: cover;
     height: 100%;
     width: 100%;
+    padding: 1%;
     /*-webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -17,24 +17,28 @@ Chunk container styles
     -moz-column-fill: balance;
     column-fill: balance;
     width: 100%;*/
+}
+
+.chunktable {
     min-height: 800px;
+    table-layout: fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 .chunkleft {
     display: table-cell;
     text-align: left;
     align-content: left;
+    vertical-align: middle;
 }
 
 .chunkright {
     display: table-cell;
     text-align: right;
     align-content: right;
-}
-
-.solochunk {
-    text-align: center;
-    align-content: center;
+    vertical-align: middle;
 }
 
 
@@ -43,19 +47,20 @@ Chunk elements
 */
 
 .chunkimage {
-    background-color: rgba(0, 0, 150, 0.7);
+    /*background-color: rgba(0, 0, 150, 0.7);*/
     text-align: center;
     align-content: center;
 }
 
 .chunktext {
-    background-color: rgba(0, 0, 150, 0.7);
+    /*background-color: rgba(0, 0, 150, 0.7);*/
+    text-align: left;
     padding: 0;
 }
 
 .chunktitle {
     text-align: left;
-    background-color: rgba(150, 0, 0, 0.7);
+    /*background-color: rgba(150, 0, 0, 0.7);*/
 }
 
 
@@ -86,14 +91,27 @@ Basic text styles
 
 p {
     color: white;
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3%;
+    border-radius: 15px;
+    font-family: "Open Sans", sans;
+    box-shadow: black;
+    text-shadow: black;
 }
 
 h1 {
     color: red;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    font-family: "Jura", sans;
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }

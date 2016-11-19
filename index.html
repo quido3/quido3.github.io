@@ -5,63 +5,94 @@
     <title>Quido3.GitHub.io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/buttonstylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 </head>
 
 <body>
-    <div class="solochunk chunktitle">
-        <h1>
-            About me
-        </h1>
-    </div>
-    <div class="chunk about">
 
-        <div class="chunkleft chunktext">
-            <p>I am a young and aspiring game developer.</p>
+    <ul>
+        <li><a id="aboutBtn" href="#home">About</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Experience</a>
+            <div class="dropdown-content">
+                <a id="metsaBtn" href="#">Metsähallitus</a>
+                <a id="kyyBtn" href="#">Kyy games</a>
+                <a id="adlBtn" href="#">Military ADL</a>
+            </div>
+        </li>
+        <li><a id="socialBtn" href="#news">Contact</a></li>
+    </ul>
+    <div id="aboutChunk" class="chunk about">
+        <div class="chunktitle">
+            <h1>
+                About me
+            </h1>
+        </div>
+        <div class="chunktable">
+            <div class="chunkleft chunktext">
+                <p>I am a young and aspiring game developer.</p>
+                <img src="images/me.jpg">
+            </div>
+            <div class="chunkright chunktext">
+                <p>Skills or smthng</p>
+            </div>
+        </div>
+    </div>
 
+    <div id="metsaChunk" class="chunk metsahallitus">
+        <div class="chunktitle">
+            <h1>
+                Metsähallitus
+            </h1>
         </div>
-        <div class="chunkright chunkimage">
-            <img src="images/me.jpg">
-        </div>
-    </div>
-    <div class="solochunk chunktitle">
-        <h1>
-            Metsähallitus
-        </h1>
-    </div>
-    <div class="chunk metsahallitus">
-        <div class="chunkleft chunktext">
-            <p>Tehtiin kaksi projektia massukäyttöön; Tuksu-man ja BioCrusing</p>
+        <div class="chunktable">
+            <div class="chunkleft chunktext">
+                <p>Tehtiin kaksi projektia massukäyttöön; Tuksu-man ja BioCrusing</p>
 
-        </div>
-        <div class="chunkright chunkimage">
-            <img src="images/pilke.jpg">
+            </div>
+            <div class="chunkright chunkimage">
+                <img src="images/tuksumangameplay.jpeg">
+                <img src="images/tuksumanicon.jpeg">
+                <img src="images/screenie2.png">
+                <img src="images/BioCruising Ikoni final.jpg">
+            </div>
         </div>
     </div>
-    <div class="solochunk chunktitle">
-        <h1>
-            Kyy Games
-        </h1>
-    </div>
-    <div class="chunk kyygames">
-        <div class="chunkleft chunktext">
-            <p>Kesällä tehty harjoittelu. Itsenäistä uuden pelin kehitystä, julkaistavien ja julkaistujen pelien testausta ja pelin porttausta steamin plattikselle</p>
 
+    <div id="kyyChunk" class="chunk kyygames">
+        <div class="chunktitle">
+            <h1>
+                Kyy Games
+            </h1>
         </div>
-        <div class="chunkright chunkimage">
-            <img src="images/kyygames.png">
+        <div class="chunktable">
+            <div class="chunkleft chunktext">
+                <p>Kesällä tehty harjoittelu. Itsenäistä uuden pelin kehitystä, julkaistavien ja julkaistujen pelien testausta ja pelin porttausta steamin plattikselle</p>
+
+            </div>
+            <div class="chunkright chunkimage">
+                <img src="images/kyygames.png">
+            </div>
         </div>
     </div>
-    <div class="chunk social">
-        <div class="solochunk chunktitle">
+    <div id="socialChunk" class="chunk social">
+        <div class="chunktitle">
             <h1>
                 Yhteystiedot
             </h1>
         </div>
-        <div class="solochunk chunktext">
+        <div class="chunktext">
             <p>Täsä ois linkkii mistä miut löyttää</p>
 
         </div>
     </div>
 </body>
+<footer>
+
+</footer>
 
 </html>
