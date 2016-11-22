@@ -7,7 +7,9 @@ Chunk container styles
     background-size: cover;
     height: 100%;
     width: 100%;
-    padding: 1%;
+    padding-right: 0%;
+    padding-left: 0%;
+    max-width: 1080px;
     /*-webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -20,11 +22,15 @@ Chunk container styles
 }
 
 .chunktable {
-    min-height: 800px;
+    min-height: 100px;
     table-layout: fixed;
     display: table;
     height: 100%;
     width: 100%;
+}
+
+.chunkrow {
+    display: table-row;
 }
 
 .chunkleft {
@@ -50,17 +56,19 @@ Chunk elements
     /*background-color: rgba(0, 0, 150, 0.7);*/
     text-align: center;
     align-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .chunktext {
     /*background-color: rgba(0, 0, 150, 0.7);*/
     text-align: left;
-    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .chunktitle {
     text-align: left;
-    /*background-color: rgba(150, 0, 0, 0.7);*/
+    background-color: rgba(0, 0, 0, 0.7);
+    /*border-radius: 15px;*/
 }
 
 
@@ -78,10 +86,26 @@ CSS for chunk themes
 
 .kyygames {
     background-image: url("../images/kyygames.png");
+    background-color: #4a4b4c;
+    background-size: 100% 100%;
 }
 
 .about {
     background-image: url("../images/gaming.jpeg");
+}
+
+.tamk {
+    background-image: url("../images/tamk.png");
+    background-size: 100% 100%;
+}
+
+.military {
+    background-image: url("../images/social.jpeg");
+}
+
+.exerium {
+    background-image: url("../images/exerium.png");
+    background-color: white;
 }
 
 
@@ -89,29 +113,61 @@ CSS for chunk themes
 Basic text styles
 */
 
-p {
+#textarea {
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 3%;
-    border-radius: 15px;
+}
+
+h1 {
+    color: red;
+    paddin: 0;
+    margin: 0;
+    font-family: "Jura", sans;
+    box-shadow: black;
+    text-shadow: black;
+}
+
+h2 {
+    color: red;
+    paddin: 0;
+    margin: 0;
+    font-family: "Jura", sans;
+    box-shadow: black;
+    text-shadow: black;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-family: "Jura", sans;
+    box-shadow: black;
+    text-shadow: black;
+}
+
+p {
     font-family: "Open Sans", sans;
     box-shadow: black;
     text-shadow: black;
 }
 
-h1 {
-    color: red;
-    margin-top: 0;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 15px;
-    font-family: "Jura", sans;
+html {
+    text-align: center;
+    background-color: #212121;
 }
 
 body {
     margin: 0;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2%;
+    overflow-x: hidden;
+    /* For Opera */
+    -webkit-box-shadow: inset #212121 0 0 0 5px, inset #262626 0 0 0 1px, inset #2b2b2b 0 0 0 10px, inset #303030 0 0 0 11px, inset #353535 0 0 0 16px, inset #3a3a3a 0 0 0 17px, inset #404142 0 0 0 22px, inset #4a4b4c 0 0 0 23px;
+    -moz-box-shadow: inset #212121 0 0 0 5px, inset #262626 0 0 0 1px, inset #2b2b2b 0 0 0 10px, inset #303030 0 0 0 11px, inset #353535 0 0 0 16px, inset #3a3a3a 0 0 0 17px, inset #404142 0 0 0 22px, inset #4a4b4c 0 0 0 23px;
+    box-shadow: inset #212121 0 0 0 5px, inset #262626 0 0 0 1px, inset #2b2b2b 0 0 0 10px, inset #303030 0 0 0 11px, inset #353535 0 0 0 16px, inset #3a3a3a 0 0 0 17px, inset #404142 0 0 0 22px, inset #4a4b4c 0 0 0 23px;
 }
+
+img {}
