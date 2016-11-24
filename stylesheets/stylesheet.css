@@ -125,7 +125,7 @@ Basic text styles
 
 h1 {
     color: red;
-    paddin: 0;
+    padding: 0;
     margin: 0;
     font-family: "Jura", sans;
     box-shadow: black;
@@ -134,7 +134,7 @@ h1 {
 
 h2 {
     color: red;
-    paddin: 0;
+    padding: 0;
     margin: 0;
     font-family: "Jura", sans;
     box-shadow: black;
