@@ -5,6 +5,21 @@ $(document).ready(function() {
     $("#socialBtn").click(function() {
         scrollTo("#socialChunk");
     });
+        $("#eduBtn").click(function() {
+        scrollTo("#tamkChunk");
+    });
+        $("#forestBtn").click(function() {
+        scrollTo("#metsaChunk");
+    });
+        $("#kyyBtn").click(function() {
+        scrollTo("#kyyChunk");
+    });
+        $("#adlBtn").click(function() {
+        scrollTo("#militaryChunk");
+    });
+        $("#exeriumBtn").click(function() {
+        scrollTo("#exeriumChunk");
+    });
 });
 
 var scrollSpeed = 1500;
