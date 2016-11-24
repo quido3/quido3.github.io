@@ -7,8 +7,8 @@ Chunk container styles
     background-size: cover;
     height: 100%;
     width: 100%;
-    padding-right: 0%;
-    padding-left: 0%;
+    padding-right: 5%;
+    padding-left: 5%;
     max-width: 1080px;
     /*-webkit-column-count: 2;
     -moz-column-count: 2;
@@ -45,6 +45,7 @@ Chunk container styles
     text-align: right;
     align-content: right;
     vertical-align: middle;
+    margin: 50px;
 }
 
 
@@ -63,11 +64,14 @@ Chunk elements
     /*background-color: rgba(0, 0, 150, 0.7);*/
     text-align: left;
     background-color: rgba(0, 0, 0, 0.7);
+        vertical-align: top;
+    padding: 25px;
 }
 
 .chunktitle {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
     /*border-radius: 15px;*/
 }
 
@@ -97,6 +101,7 @@ CSS for chunk themes
 .tamk {
     background-image: url("../images/tamk.png");
     background-size: 100% 100%;
+    background-color: white;
 }
 
 .military {
@@ -115,6 +120,7 @@ Basic text styles
 
 #textarea {
     color: white;
+    float: top;
 }
 
 h1 {
