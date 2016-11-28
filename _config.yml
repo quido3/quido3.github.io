@@ -1,0 +1,81 @@
+# Site
+title:              Portfolio
+bio:                'This portfolio site is the main hub to all information about me; Petri Majamäki'
+description:        "Site to display the skills and Experience of Petri Majamäki"
+reading_time:       true
+words_per_minute:   200
+logo:               '/assets/img/logo.png'
+background:         '/assets/img/gaming.jpeg'
+biocruisingicon:    '/assets/img/BioCruising Ikoni final.jpg'
+mypicture:          '/assets/img/me.jpg'
+gamexr:             '/assets/img/pelituoli.jpg'
+biocruisingscreen1: '/assets/img/screenie1.png'
+biocruisingscreen2: '/assets/img/screenie2.png'
+tuksumanscreen1:    '/assets/img/tuksumangameplay.jpeg'
+tuksumanicon:       '/assets/img/tuksumanicon.jpeg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                http://quido3.github.io
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   taylantatli
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+email:              majamaki.petri(at)gmail.com
+#twitter:           username
+#facebook:          username
+github:             Quido3
+stackoverflow:      4764417/quido3   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           petrimajamaki
+#xing:              username
+#instagram:         username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+steam:              quido3
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
