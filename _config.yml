@@ -5,7 +5,7 @@ description:        "Site to display the skills and Experience of Petri Majamäk
 reading_time:       true
 words_per_minute:   200
 logo:               '/assets/img/logo.png'
-background:         '/assets/img/gaming.jpeg'
+background:         '/assets/img/placeholder-big.jpg'
 biocruisingicon:    '/assets/img/BioCruising Ikoni final.jpg'
 mypicture:          '/assets/img/me.jpg'
 gamexr:             '/assets/img/pelituoli.jpg'
