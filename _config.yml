@@ -15,7 +15,7 @@ tuksumanscreen1:    '/assets/img/tuksumangameplay.jpeg'
 tuksumanicon:       '/assets/img/tuksumanicon.jpeg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://quido3.github.io/
+url:                https://quido3.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -75,7 +75,7 @@ gems:
   - jekyll-gist
 
 jekyll-mentions:
-    base_url: https://quido3.github.io/
+    base_url: https://quido3.github.io
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
