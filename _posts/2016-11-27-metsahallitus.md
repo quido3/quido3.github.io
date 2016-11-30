@@ -11,7 +11,7 @@ tag:
 - experience
 - school
 - game
-feature: assets/img/pilke.jpg
+feature: assets/img/pilke.png
 comments: false
 ---
 

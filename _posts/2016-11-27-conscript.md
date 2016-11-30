@@ -15,6 +15,8 @@ feature: assets/img/military.png
 comments: false
 ---
 
+# Conscript time
+
 I started my conscript duty in Kajaani to be trained into a signaller. During this time I applied to be assigned into a special tasks force as a ADL-dveloper. The good news I got few days before my transfer and I was moved to Santahamina after the basic training.
 
 I was assigned to serve as a ADL-Developer in Media- and Pictureservices unit in Tuusula under Major Tihula. I worked in a team of four and we started designing our project.
