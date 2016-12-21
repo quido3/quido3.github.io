@@ -1,0 +1,23 @@
+---
+published: false
+---
+
+# NZXT Grid+ V2 on Linux
+
+I recently ran into bit of trouble with my PC, because my motherboard didn't have enough fan headers for my NCase M1. I recearched for solutions and decided on a NZXT Grid+ V2 digital fan controller. It is a small black box connecting into the USB2.0 header on motherboard and getting it's power straight from the PSU.
+
+It is controlled with a CAM named software from NZXT. Althought for my discomfort I discovered that it does not have any kind of Linux support. The settings from the software are saved to the device, but the device does not seem to be able to read the temperatures from Ubuntu. This caused some nice overheating, so I decided to look for a solution.
+
+From Reddit I found a post from off-z-grid showing off a bash script that could control the Grid from terminal. This didn't include any automation I needed, so I needed my own solution.
+
+LinuxGrid-v2Controller: https://github.com/quido3/LinuxGrid-v2Controller
+
+This is a simple C# program that uses the bash script from CapitalF, nvidia-smi and ubuntus sensors package to monitor CPU and GPU temperature and set a single fan according to those temperatures. It reads a bit on config from conf.d file next to the executable so the fan connection can be changed and the temperatures set to liking.
+
+The software relies heavily on the fact that it can call two different terminal command and parse the result for the CPU and GPU temperatures and sets the speed based on how close these numbers are from the maximum set in the config file.
+
+Seems to be running fine on my system, but I won't quarantee you can run it nor that you should. If you decide to use this software, I urge you to constantly monitor your temperatures for any overheating.
+
+To use, download the gridfan script from the link in the repositorys readme, verify that you can run the two command in the readme and build the program.cs file. Run and enjoy the constant feed of text in the terminal.
+
+I might be updating the script based on my own need for it. I am currently mainly running Windows, so I'm not using this constantly.
